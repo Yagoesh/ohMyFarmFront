@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="border-b border-white rounded-b-xl min-h-[11vh] mb-0 flex justify-between items-center">
+    <header className="border-b border-headerBorder rounded-b-xl min-h-[11vh] mb-0 flex justify-between items-center">
       <img
         src="../public/images/omf-logo.png"
         alt="logo"

@@ -13,6 +13,16 @@ export default {
         customlightblue: "#C7DDD3",
         customblue: "#5FA2BF",
         buttonPrimary: "#41788F",
+        headerBorder: "#94F892",
+        gradienteB1: "#6db06cdd",
+        gradienteB2: "#66bf64dd",
+        gradienteB3: "#5fa2bfdd",
+        footerGrad1: "#78A716",
+        footerGrad2: "#50AAf6",
+        footerGrad3: "#337031",
+      },
+      fontFamily: {
+        Whisper: ["Whisper", "sans-serif"],
       },
       //shadow
       boxShadow: {

@@ -7,10 +7,10 @@ const Header = () => {
         className="m-1 border-b border-white rounded-b-lg  max-h-[11vh]"
       />
       <div className="flex gap-1 m-2">
-        <button className="bg-buttonPrimary rounded-3xl p-3  max-w-[9vh] text-white ">
+        <button className="bg-buttonPrimary rounded-3xl p-3  max-w-[20vh] text-white ">
           Login
         </button>
-        <button className="bg-buttonPrimary rounded-3xl p-2 max-w-[9vh] text-white ">
+        <button className="bg-buttonPrimary rounded-3xl p-2 max-w-[20vh] text-white ">
           Registrar
         </button>
       </div>

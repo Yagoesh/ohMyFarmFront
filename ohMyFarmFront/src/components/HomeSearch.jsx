@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { VITE_BASE_URL } from "../config/env";
@@ -24,7 +26,7 @@ const HomeSearch = () => {
   };
 
   return (
-    <div className="bg-gradient-to-t from-gradienteB1 from-[20%] via-gradienteB2 via-[38%] to-gradientB3 to-[80%] rounded-xl mx-4 my-18">
+    <div className="bg-gradient-to-t from-gradienteB1 from-[10%] via-gradienteB2 via-[38%] to-gradientB3 to-[80%] rounded-xl mx-4 mt-12">
       {" "}
       <div className="min-h-12  bg-[#B0D9AE] rounded-xl m-5 flex justify-between">
         <button
@@ -44,22 +46,24 @@ const HomeSearch = () => {
         {buttonCiudad
           ? ciudades.map((ciudad) => {
               return (
-                <div
+                <NavLink
+                  to="login"
                   className="rounded-xl m-1 bg-[#e3f8fa] min-h-10 max-w-15 m-4 flex justify-center items-center text-xl "
                   key={ciudad.diudadId}
                 >
                   {ciudad.ciudad}
-                </div>
+                </NavLink>
               );
             })
           : categorias.map((categoria) => {
               return (
-                <div
+                <NavLink
+                  to="/login"
                   className="rounded-xl m-1 bg-[#e3f8fa] min-h-10 max-w-15 m-4 flex justify-center items-center text-xl"
                   key={categoria.familiaId}
                 >
                   {categoria.familia}
-                </div>
+                </NavLink>
               );
             })}
       </div>

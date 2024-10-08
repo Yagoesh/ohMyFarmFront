@@ -1,8 +1,8 @@
-const Register = () => {
+const RegisterTienda = () => {
   return (
     <body className="min-h-[76vh] mt-5">
       <div className="bg-gradient-to-t from-gradienteB1 from-[20%] via-gradienteB2 via-[38%] to-gradienteB3 to-[80%] rounded-xl mx-4 my-18 min-h-[68vh] shadow-lg shadow-gray-500/50 flex flex-col items-center gap-8">
-        <h1 className="m-2 text-xl ">Registrate</h1>
+        <h1 className="m-2 text-xl ">Registra tu tienda</h1>
         <form action="" className="flex flex-col gap-6 justify-center">
           <input
             type="text"
@@ -43,4 +43,4 @@ const Register = () => {
     </body>
   );
 };
-export default Register;
+export default RegisterTienda;

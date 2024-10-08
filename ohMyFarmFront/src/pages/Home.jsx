@@ -2,7 +2,7 @@ import HomeSearch from "../components/HomeSearch";
 
 const Home = () => {
   return (
-    <body className="max-h-[1vh] ">
+    <body className=" min-h-[76vh] mt-5 mb-5">
       {" "}
       <div className="relative min-h-[15vh] m-3 rounded-xl mt-3 ">
         <div className="absolute inset-0 bg-[url('../../public/images/campo-Producto.png')] bg-center min-h-[15vh] m-3 rounded-xl mt-3">

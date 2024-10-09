@@ -30,13 +30,21 @@ const HomeSearch = () => {
       {" "}
       <div className="min-h-12  bg-[#B0D9AE] rounded-xl m-5 flex justify-between">
         <button
-          className="bg-[#74BB9E] min-h-5 min-w-[130px] rounded-xl m-1 flex justify-center items-center text-white text-xl"
+          className={`min-h-6 min-w-[130px] rounded-xl m-1 flex justify-center items-center text-white text-xl ${
+            buttonCiudad
+              ? "bg-gradient-to-t from-footerGrad1 from-[25%]  via-[#9DBA74] via-[50%]  to-customlightblue to-[85%]"
+              : "bg-gradient-to-t from-customblue from-[40%]  to-customlightgreen to-[90%]"
+          }`}
           onClick={searchCiudad}
         >
           Ciudad
         </button>
         <button
-          className="bg-[#41788F] min-h-5 min-w-[130px] rounded-xl m-1 flex justify-center items-center text-white text-xl"
+          className={`min-h-6 min-w-[130px] rounded-xl m-1 flex justify-center items-center text-white text-xl ${
+            buttonCiudad
+              ? "bg-gradient-to-t from-customblue from-[40%]  to-customlightgreen to-[90%]"
+              : "bg-gradient-to-t from-footerGrad1 from-[25%]  via-[#9DBA74] via-[50%]  to-customlightblue to-[85%]"
+          }`}
           onClick={searchCategorias}
         >
           Categorias

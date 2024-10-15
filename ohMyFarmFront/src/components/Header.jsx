@@ -19,8 +19,9 @@ const Header = () => {
           Login
         </NavLink>
         <NavLink
-          to="/register"
+          to="/register/cliente"
           className="bg-buttonPrimary rounded-3xl p-2 max-w-[20vh] text-white "
+          state={{ role: "cliente" }}
         >
           Registrar
         </NavLink>

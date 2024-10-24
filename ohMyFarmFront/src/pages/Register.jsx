@@ -83,7 +83,9 @@ const Register = () => {
         ""
       )}
       <div className="min-h-[68vh] from-gradienteB1 from-[20%] via-gradienteB2 via-[38%] to-gradienteB3 to-[80%] rounded-xl mx-4 my-18 max-h-[68vh] shadow-lg shadow-gray-500/50 flex flex-col items-center gap-8 overflow-y-auto">
-        <h1 className="m-2 text-xl ">Registrate en 2 minutos ...</h1>
+        <h1 className="m-2 text-xl font-Whisper text-white">
+          Registrate en 2 minutos ...
+        </h1>
         <form
           onSubmit={onSubmit}
           className="flex flex-col gap-6 justify-center"

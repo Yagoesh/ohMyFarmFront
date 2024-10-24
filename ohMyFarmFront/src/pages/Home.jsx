@@ -6,8 +6,8 @@ const Home = () => {
       {" "}
       <div className="relative min-h-[15vh] m-3 rounded-xl mt-3 ">
         <div className="absolute inset-0 bg-[url('../../public/images/campo-Producto.png')] bg-center min-h-[15vh] m-3 rounded-xl mt-3">
-          <ul className="p-3 font-bold relative z-10">
-            <li className="">
+          <ul className="p-3 relative z-10 text-white">
+            <li className=" ">
               <span>F</span>
               <span className="font-Whisper ">
                 ruta, verduras, carne, pescado, frutos secos.
